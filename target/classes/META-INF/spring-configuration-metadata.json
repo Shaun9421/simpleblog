@@ -1,0 +1,28 @@
+{
+  "groups": [
+    {
+      "name": "jarvis.jwt",
+      "type": "com.jarvis.util.JwtUtils",
+      "sourceType": "com.jarvis.util.JwtUtils"
+    }
+  ],
+  "properties": [
+    {
+      "name": "jarvis.jwt.expire",
+      "type": "java.lang.Long",
+      "sourceType": "com.jarvis.util.JwtUtils",
+      "defaultValue": 0
+    },
+    {
+      "name": "jarvis.jwt.header",
+      "type": "java.lang.String",
+      "sourceType": "com.jarvis.util.JwtUtils"
+    },
+    {
+      "name": "jarvis.jwt.secret",
+      "type": "java.lang.String",
+      "sourceType": "com.jarvis.util.JwtUtils"
+    }
+  ],
+  "hints": []
+}
